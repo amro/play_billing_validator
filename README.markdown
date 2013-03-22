@@ -10,7 +10,7 @@ and it will return a boolean value telling you whether or not your transaction i
      
 ##Requirements
 
-A public key for your Android app's in app billing. Get it from the Google Play Publisher page.
+A public key for your Android app's in app billing. Get it from the Google Play [Developer Console](https://play.google.com/apps/publish).
 
 ##Usage
 
