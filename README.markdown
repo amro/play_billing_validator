@@ -32,6 +32,10 @@ Then send the data and signature to your server and validate like this:
 I recommend keeping a record of valid transactions in your database to prevent malicious users
 from replaying them for free loot.
 
+## Details
+
+Need more detail on how all of this works (especially the Android implementation)? Read Google's [In-app Billing Docs](http://developer.android.com/google/play/billing/index.html).
+
 ## Thanks
 
 Thanks to [Walt Schlender](http://stackoverflow.com/users/749709/walta) for his answer in this [StackOverflow](http://stackoverflow.com/questions/5971031/how-do-i-verify-android-in-app-billing-with-a-server-with-ruby) thread.
