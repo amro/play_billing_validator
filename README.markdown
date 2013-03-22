@@ -14,12 +14,12 @@ A public key for your Android app's in app billing. Get it from the Google Play 
 
 ##Usage
 
-Implement the In-app Billing v3 in your Android app.
+Implement the In-app Billing v3 in your Android app:
 
     String data = data.getStringExtra(RESPONSE_INAPP_PURCHASE_DATA);
     String signature = data.getStringExtra(RESPONSE_INAPP_SIGNATURE);
 
- Send the data and signature to your server and validate like this:
+Then send the data and signature to your server and validate like this:
  
     data = params[:data]
     signature = params[:signature]
