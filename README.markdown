@@ -14,7 +14,7 @@ A public key for your Android app's in app billing. Get it from the Google Play 
 
 ##Usage
 
-Implement the In-app Billing v3 in your Android app:
+Implement the In-app Billing in your Android app:
 
     String data = data.getStringExtra(RESPONSE_INAPP_PURCHASE_DATA);
     String signature = data.getStringExtra(RESPONSE_INAPP_SIGNATURE);
