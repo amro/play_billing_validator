@@ -29,6 +29,10 @@ Implement the In-app Billing v3 in your Android app.
         # booo. bad transaction data. reprimand the crook or give them a cookie anyway.
     end
 
-##Copyrights
+## Thanks
 
-* Copyright (c) 2013 Amro Mousa. See LICENSE.txt for details.
+Thanks to [Walt Schlender](http://stackoverflow.com/users/749709/walta) for his answer in this [StackOverflow](http://stackoverflow.com/questions/5971031/how-do-i-verify-android-in-app-billing-with-a-server-with-ruby) thread.
+
+##Copyrights and License
+
+* Copyright (c) 2013 Amro Mousa. This gem is licensed under the MIT license. See LICENSE.txt for details.

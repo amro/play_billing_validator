@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Amro Mousa"]
   s.email       = ["amromousa@gmail.com"]
   s.homepage    = "http://github.com/amro/play_billing_validator"
-  s.summary     = %q{Validated Google Play In-app Billing v3 transactions}
+  s.summary     = %q{Validates Google Play In-app Billing v3 transactions}
   s.description = %q{Validates Google Play In-app Billing v3 transactions}
   s.license     = "MIT"
   s.version     = PlayBilling::VERSION
