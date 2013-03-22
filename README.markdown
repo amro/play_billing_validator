@@ -38,7 +38,8 @@ Need more detail on how all of this works (especially the Android implementation
 
 ## Thanks
 
-Thanks to [Walt Schlender](http://stackoverflow.com/users/749709/walta) for his answer in this [StackOverflow](http://stackoverflow.com/questions/5971031/how-do-i-verify-android-in-app-billing-with-a-server-with-ruby) thread.
+Thanks to [Walt Schlender](http://stackoverflow.com/users/749709/walta) for his answer to 
+this [StackOverflow](http://stackoverflow.com/questions/5971031/how-do-i-verify-android-in-app-billing-with-a-server-with-ruby) question. This gem is based on that post.
 
 ##Copyrights and License
 
