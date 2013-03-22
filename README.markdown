@@ -1,4 +1,4 @@
-# Validate Google Play In-app Billing Transactions
+# Google Play In-app Billing Validation
 
 This (simple) gem validates In-app Billing v3 transactions. Pass your base64 
 encoded public key, the transaction data (json) and the base64 encoded signature 
@@ -6,7 +6,7 @@ and it will return a boolean value telling you whether or not your transaction i
 
 ##Installation
 
-    $ gem install validate_google_play
+    $ gem install play_billing_validator
      
 ##Requirements
 
