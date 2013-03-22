@@ -1,6 +1,6 @@
 # Google Play In-app Billing Validation
 
-This (simple) gem validates In-app Billing v3 transactions. Pass your base64 
+This (simple) gem validates In-app Billing transactions. Pass your base64 
 encoded public key, the transaction data (json) and the base64 encoded signature 
 and it will return a boolean value telling you whether or not your transaction is valid.
 
@@ -28,6 +28,9 @@ Then send the data and signature to your server and validate like this:
     else
         # booo. bad transaction data. reprimand the crook or give them a cookie anyway.
     end
+
+I recommend keeping a record of valid transactions in your database to prevent malicious users
+from replaying them for free loot.
 
 ## Thanks
 
