@@ -23,7 +23,7 @@ Then send the data and signature to your server and validate like this:
  
     data = params[:data]
     signature = params[:signature]
-    if (GooglePlay::Transaction.valid(public_key, data, signature))
+    if (PlayBilling::Transaction.valid(public_key, data, signature))
         # success. save the transaction, give away cookies and so on.
     else
         # booo. bad transaction data. reprimand the crook or give them a cookie anyway.
