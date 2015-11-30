@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 
-require "play_billing"
+require "./play_billing"
 
 Gem::Specification.new do |s|
   s.name        = "play_billing_validator"
